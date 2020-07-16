@@ -33,9 +33,11 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 - **Develop/public** - utilities that displays the data (_View_)
 - **Develop/routes** - utilities handles the input to our database (_Controller_)
 
-<img src="./Assets/imgs/files.png" width = "300px">
+<img src="./Assets/imgs/files.png" width = "200px">
 
 #### Dependecies used by the project and for this project and their purpose:
+
+\_\_
 
 <img src="./Assets/imgs/dev.png" width = "300px">
 
@@ -55,8 +57,12 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ---
 
-## Starting by:
+## Files walk-through
 
-- server.js
+### server.js
 
-In the code given above we define the server for entire project.
+> **Server.js** _This file is the initial starting point for the Node/Express server_
+
+<img src="./Assets/imgs/server.png" width = "800px">
+
+---
