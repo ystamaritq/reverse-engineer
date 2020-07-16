@@ -37,6 +37,7 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 - _**Develop/config**_ `contains the project configuration files (Configuration)`
 
 - _**Develop/models**_ `utilities that represents the application core logics (Model)`
+
 - _**Develop/public**_ `utilities that displays the data (View)`
 
 - _**Develop/routes**_ `utilities handles the input to our database (Controller)`
@@ -67,10 +68,26 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ## Files walk-through
 
-### server.js
+### ./server.js
 
 > **Server.js** _This file is the initial starting point for the Node/Express server_
 
 <img src="./Assets/imgs/server.png" width = "800px">
 
 ---
+
+### ./Develop/models/user.js
+
+> **user.js** \_Model deals with the business layer that is classes and the properties.
+
+- Purporse : Creating our user model.
+
+<div align = "center">
+<img src="./Assets/imgs/user_code.png" width = "500px">
+</div>
+
+> Diagram that represents the Model (User)
+
+<div align = "center">
+<img src="./Assets/imgs/user.png" width = "500px">
+</div>
