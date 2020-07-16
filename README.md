@@ -72,7 +72,10 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 _**Server.js**_ `This file is the initial starting point for the Node/Express server.`
 
+<details>
+<summary>server js image with comments</summary>
 <img src="./Assets/imgs/server.png" width = "800px">
+</details>
 
 ---
 
@@ -85,7 +88,10 @@ _**Purporse:**_
 - Creating our user model.
 - Define the user table using Sequelize.
 
+<details>
+<summary>user js image with comments</summary>
 <img src="./Assets/imgs/user_code.png" width = "800px">
+</details>
 
 _**Result: Diagram that represents the Model (User).**_
 
@@ -102,4 +108,7 @@ _**Purporse:**_
     -  Uses optional Environment Variable (env) to specify if you are in dev or production.
     -  And uses the configurations for that environment from a _config_ file.
 
+<details>
+<summary>index js image with comments</summary>
 <img src="./Assets/imgs/index.png" width = "800px">
+</details>
