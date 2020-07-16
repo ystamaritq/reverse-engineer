@@ -4,6 +4,8 @@
 
 A tutorial explaining _every_ file and its purpose.
 
+---
+
 ## User Story
 
 ```
@@ -18,7 +20,9 @@ SO THAT I can use it as a starting point for a new project
 
 This project is based on **MVC** (_model-view-control_) **design** that separates bussiness logics, UI design and user interaction.
 
+<div align="center">
 <img src="./Assets/imgs/mvc.jpg" width = "500px">
+</div>
 
 ---
 
@@ -26,18 +30,22 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 #### Below is a summary of the key files for this project and their purpose:
 
-- **package.json** - node package definition (_Node Package_)
-- **server.js** - main application entry point (_Server_)
-- **Develop/config** - contains the project configuration files (_Configuration_)
-- **Develop/models** - utilities that represents the application core logics (_Model_)
-- **Develop/public** - utilities that displays the data (_View_)
-- **Develop/routes** - utilities handles the input to our database (_Controller_)
+- _**package.json**_ `node package definition (Node Package)`
 
-<img src="./Assets/imgs/files.png" width = "200px">
+- _**server.js**_ `main application entry point (Server)`
+
+- _**Develop/config**_ `contains the project configuration files (Configuration)`
+
+- _**Develop/models**_ `utilities that represents the application core logics (Model)`
+- _**Develop/public**_ `utilities that displays the data (View)`
+
+- _**Develop/routes**_ `utilities handles the input to our database (Controller)`
+
+<div>
+<img src="./Assets/imgs/files.png" width = "300px">
+</div>
 
 #### Dependecies used by the project and for this project and their purpose:
-
-\_\_
 
 <img src="./Assets/imgs/dev.png" width = "300px">
 
