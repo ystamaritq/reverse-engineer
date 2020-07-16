@@ -18,7 +18,7 @@ SO THAT I can use it as a starting point for a new project
 
 This project is based on **MVC** (_model-view-control_) **design** that separates bussiness logics, UI design and user interaction.
 
-<img src="./Assets/imgs/mvc.jpg" width = "300px">
+<img src="./Assets/imgs/mvc.jpg" width = "500px">
 
 ---
 
