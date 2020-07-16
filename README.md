@@ -80,7 +80,10 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 > **user.js** \_Model deals with the business layer that is classes and the properties.
 
-> **Purporse:** _Creating our user model_
+**Purporse:**
+
+- Creating our user model.
+- Define the user table using Sequelize.
 
 <img src="./Assets/imgs/user_code.png" width = "800px">
 
@@ -89,3 +92,14 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 <img src="./Assets/imgs/user.png" width = "500px">
 
 ---
+
+### ./Develop/models/index.js
+
+> **index.js** Initialize sequalize db connection.
+
+**Purporse:**
+
+    -  Uses optional Environment Variable (env) to specify if you are in dev or production.
+    -  And uses the cinfigurations for that environment from a config file.
+
+<img src="./Assets/imgs/index.png" width = "800px">
