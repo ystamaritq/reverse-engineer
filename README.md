@@ -100,6 +100,6 @@ _**index.js**_ `Initialize sequalize db connection.`
 _**Purporse:**_
 
     -  Uses optional Environment Variable (env) to specify if you are in dev or production.
-    -  And uses the cinfigurations for that environment from a config file.
+    -  And uses the configurations for that environment from a _config_ file.
 
 <img src="./Assets/imgs/index.png" width = "800px">
