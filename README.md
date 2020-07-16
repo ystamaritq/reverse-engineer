@@ -49,7 +49,7 @@ _**express_session**_ `Every user of your API or website will be assigned a uniq
 
 _**mysql2**_ `A modern, simple and very fast MySQL library.`
 
-_**password**_ `Is a simple server-side memorable password generator for Node.js`
+_**password**_ `Is a simple server-side memorable password generator for Node.js.`
 
 _**passport-local**_ `Lets the user authenticate using a username and password in your Node. js applications.`
 
