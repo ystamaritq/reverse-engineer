@@ -28,8 +28,8 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 - **package.json** - node package definition (_Node Package_)
 - **server.js** - main application entry point (_Server_)
-- **Develop/config** - tilities that contains the project configuration (_Configuration_)
-- **Develop/models** - utilities that represents the application core (_Model_)
+- **Develop/config** - contains the project configuration files (_Configuration_)
+- **Develop/models** - utilities that represents the application core logics (_Model_)
 - **Develop/public** - utilities that displays the data (_View_)
 - **Develop/routes** - utilities handles the input to our database (_Controller_)
 
@@ -39,18 +39,24 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 <img src="./Assets/imgs/dev.png" width = "300px">
 
-_**bcryptjs**_ Is used to obtain secure random numbers.
+_**bcryptjs**_ `Is used to obtain secure random numbers.`
 
-_**express**_ A web application framework for Node.js. It is designed for building web applications and APIs.
+_**express**_ `A web application framework for Node.js. It is designed for building web applications and APIs.`
 
-_**express_session**_ Every user of your API or website will be assigned a unique session, and this allows you to store the user state.
+_**express_session**_ `Every user of your API or website will be assigned a unique session, and this allows you to store the user state.`
 
-_**mysql2**_ A modern, simple and very fast MySQL library.
+_**mysql2**_ `A modern, simple and very fast MySQL library.`
 
-_**password**_ Is a simple server-side memorable password generator for Node.js.
+_**password**_ `Is a simple server-side memorable password generator for Node.js`
 
-_**passport-local**_ Lets the user authenticate using a username and password in your Node. js applications.
+_**passport-local**_ `Lets the user authenticate using a username and password in your Node. js applications.`
 
-_**sequelize**_ Used since the beginning in order to automate the creation of every table in your database.
+_**sequelize**_ `Used since the beginning in order to automate the creation of every table in your database.`
 
 ---
+
+## Starting by:
+
+- server.js
+
+In the code given above we define the server for entire project.
