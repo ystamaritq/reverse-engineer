@@ -26,12 +26,12 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 #### Below is a summary of the key files for this project and their purpose:
 
-- **package.json** - node package definition
-- **server.js** - main application entry point
-- **Develop/config** - _Configuration_ utilities that contains the project configuration.
-- **Develop/models** - _Model_ utilities that represents the application core.
-- **Develop/public** - _View_ utilities that displays the data.
-- **Develop/routes** - _Controller_ utilities handles the input to our database.
+- **package.json** - node package definition (_Node Package_)
+- **server.js** - main application entry point (_Server_)
+- **Develop/config** - tilities that contains the project configuration (_Configuration_)
+- **Develop/models** - utilities that represents the application core (_Model_)
+- **Develop/public** - utilities that displays the data (_View_)
+- **Develop/routes** - utilities handles the input to our database (_Controller_)
 
 <img src="./Assets/imgs/files.png" width = "300px">
 
