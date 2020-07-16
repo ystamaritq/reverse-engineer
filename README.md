@@ -39,10 +39,18 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 <img src="./Assets/imgs/dev.png" width = "300px">
 
-_**bcryptjs**_ On node.js, the inbuilt crypto module's randomBytes interface is used to obtain secure random numbers.
+_**bcryptjs**_ Is used to obtain secure random numbers.
 
-_**password**_ password is a simple server-side memorable password generator for Node.js.
+_**express**_ A web application framework for Node.js. It is designed for building web applications and APIs.
 
-_**express**_
+_**express_session**_ Every user of your API or website will be assigned a unique session, and this allows you to store the user state.
+
+_**mysql2**_ A modern, simple and very fast MySQL library.
+
+_**password**_ Is a simple server-side memorable password generator for Node.js.
+
+_**passport-local**_ Lets the user authenticate using a username and password in your Node. js applications.
+
+_**sequelize**_ Used since the beginning in order to automate the creation of every table in your database.
 
 ---
