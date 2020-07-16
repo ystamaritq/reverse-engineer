@@ -26,7 +26,7 @@ This project is based on **MVC** (_model-view-control_) **design** that separate
 
 ---
 
-## Key Files
+## Project Structure
 
 #### Below is a summary of the key files for this project and their purpose:
 
