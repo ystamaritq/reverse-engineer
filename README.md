@@ -80,14 +80,12 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 > **user.js** \_Model deals with the business layer that is classes and the properties.
 
-- Purporse : Creating our user model.
+> **Purporse:** _Creating our user model_
 
-<div align = "center">
-<img src="./Assets/imgs/user_code.png" width = "500px">
-</div>
+<img src="./Assets/imgs/user_code.png" width = "800px">
 
-> Diagram that represents the Model (User)
+> Result: Diagram that represents the Model (User)
 
-<div align = "center">
 <img src="./Assets/imgs/user.png" width = "500px">
-</div>
+
+---
