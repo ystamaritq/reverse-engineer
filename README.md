@@ -68,26 +68,26 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ## Files walk-through
 
-### ./server.js
+### server.js
 
-> **Server.js** _This file is the initial starting point for the Node/Express server_
+_**Server.js**_ `This file is the initial starting point for the Node/Express server.`
 
 <img src="./Assets/imgs/server.png" width = "800px">
 
 ---
 
-### ./Develop/models/user.js
+### user.js
 
-> **user.js** \_Model deals with the business layer that is classes and the properties.
+_**user.js**_ `Model deals with the business layer that is classes and the properties.`
 
-**Purporse:**
+_**Purporse:**_
 
 - Creating our user model.
 - Define the user table using Sequelize.
 
 <img src="./Assets/imgs/user_code.png" width = "800px">
 
-> Result: Diagram that represents the Model (User)
+_**Result: Diagram that represents the Model (User).**_
 
 <img src="./Assets/imgs/user.png" width = "500px">
 
@@ -95,9 +95,9 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ### ./Develop/models/index.js
 
-> **index.js** Initialize sequalize db connection.
+_**index.js**_ `Initialize sequalize db connection.`
 
-**Purporse:**
+_**Purporse:**_
 
     -  Uses optional Environment Variable (env) to specify if you are in dev or production.
     -  And uses the cinfigurations for that environment from a config file.
