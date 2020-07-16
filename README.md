@@ -93,7 +93,7 @@ _**Result: Diagram that represents the Model (User).**_
 
 ---
 
-### ./Develop/models/index.js
+### index.js
 
 _**index.js**_ `Initialize sequalize db connection.`
 
