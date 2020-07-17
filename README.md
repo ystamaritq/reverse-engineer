@@ -79,6 +79,8 @@ _**Server.js**_ `This file is the initial starting point for the Node/Express se
 
 ---
 
+## Models
+
 ### user.js
 
 _**user.js**_ `Model deals with the business layer that is classes and the properties.`
@@ -111,4 +113,26 @@ _**Purporse:**_
 <details>
 <summary>index js image with comments</summary>
 <img src="./Assets/imgs/index.png" width = "800px">
+</details>
+
+## Controller
+
+Any file inside the folder **_routes_** refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+_**api_routes**_ `App handler functions, which are executed when the route \api\* is matched`
+
+**For example,** the following API route `/api/user_data` handles a json response:
+
+<img src="./Assets/imgs/api1.png" width = "400px">
+
+**Where:**
+
+- app is an instance of express.
+- GET is an HTTP request method, in lowercase.
+- PATH is `/api/user_data` on the server.
+- HANDLER is the function executed when the route is matched.
+
+<details>
+<summary>api_routes code image with comments</summary>
+<img src="./Assets/imgs/api_routes.png" width = "800px">
 </details>
