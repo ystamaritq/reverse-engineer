@@ -121,7 +121,7 @@ Any file inside the folder **_routes_** refers to determining how an application
 
 _**api_routes**_ `App handler functions, which are executed when the route \api\* is matched`
 
-**For example,** the following API route `/api/user_data` handles a json response:
+**The following API route** `/api/user_data` handles a **json** response:
 
 <img src="./Assets/imgs/api1.png" width = "800px">
 
@@ -131,6 +131,15 @@ _**api_routes**_ `App handler functions, which are executed when the route \api\
 - GET is an HTTP request method, in lowercase.
 - PATH is `/api/user_data` on the server.
 - HANDLER is the function executed when the route is matched.
+
+---
+
+**The following examples** shows a **route** and its handler function _(Connect middleware)_. The function handles POST requests to the `/api/login` path & . If this function gets called, authentication was successful. `req.user` contains the authenticated user.
+
+<img src="./Assets/imgs/api2.png" width = "800px">
+
+If authentication fails, Passport will respond with a 401 Unauthorized status.
+If authentication succeeds, the next handler will be invoked and the req.user property will be set to the authenticated user.
 
 <details>
 <summary>api_routes code image with comments</summary>
