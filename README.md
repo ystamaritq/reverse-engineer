@@ -123,7 +123,7 @@ _**api_routes**_ `App handler functions, which are executed when the route \api\
 
 **For example,** the following API route `/api/user_data` handles a json response:
 
-<img src="./Assets/imgs/api1.png" width = "600px">
+<img src="./Assets/imgs/api1.png" width = "800px">
 
 **Where:**
 
