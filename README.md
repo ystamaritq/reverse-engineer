@@ -180,3 +180,7 @@ Any file inside the folder **_routes_** refers to determining how an application
 The **public folder** contains all the _**views**_ `(html, css, js) files` used by the project.
 
 <img src="./Assets/imgs/views_files.png" width = "200px">
+
+The following js files `login.js`, `members.js`, and `signup.js` have the functionality to handle the interactive elements for web page.
+
+In this case for example:
