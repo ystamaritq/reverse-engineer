@@ -166,4 +166,14 @@ Any file inside the folder **_routes_** refers to determining how an application
 
 #### _**html_routes**_
 
-`The following code demostrates how the controller handle the data and returning the resulting page to the user to view in the browser.`
+`The following code demostrates how the Controller handle the data and returning the resulting page to the user to view in the browser. In this specific case:`
+
+- If the user go the the following path (/) the res (response) => **signup.html**
+
+- But is the user already has an account the response is redirect to the => **members.html.**
+
+- If the user go to this route (/login) the res (response) resulting page to the user to view in the browser will be **login.html**.
+
+`ilustration image above for more details.`
+
+<img src="./Assets/imgs/api2.png" width = "800px">
