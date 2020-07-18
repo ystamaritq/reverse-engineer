@@ -177,3 +177,5 @@ Any file inside the folder **_routes_** refers to determining how an application
 `ilustration image.`
 
 <img src="./Assets/imgs/html.png" width = "800px">
+
+## Views
