@@ -187,26 +187,19 @@ The following js files `login.js`, `members.js`, and `signup.js` have the functi
 
 **login** js file handle user interaction when the user => login to the page.
 
-**purporse**
-
-- sending an AJAX POST-request with jQuery `$.post("/api/login", { email: email, password: password})`
+**purporse** sending an AJAX POST-request with jQuery `$.post("/api/login", { email: email, password: password})`
 
 <img src="./Assets/imgs/login.png" width = "700px">
 
 **signup** js file handle user interaction when the user going to => signup to the page.
 
-**purporse**
-
-- sending an AJAX POST-request with jQuery `$.post("/api/signup", { email: email, password: password})`
+**purporse** sending an AJAX POST-request with jQuery `$.post("/api/signup", { email: email, password: password})`
 
 <img src="./Assets/imgs/signup-js.png" width = "700px">
 
 **members** js file handle user interaction when the user is a => members to the page.
 
-**purporse**
-
-- when the page loads, grab all of our users.
-- sending an **AJAX-GET** request with jquery `$.get("/api/user_data")`
+**purporse** when the page loads, grab all of our users and sending an **AJAX-GET** request with jquery `$.get("/api/user_data")`.
 
 <img src="./Assets/imgs/members-js.png" width = "600px">
 
