@@ -102,7 +102,7 @@ _**Purporse:**_
 
 <img src="./Assets/imgs/user4.png" width = "400px">
 
-**The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ and _**bcryptjs**_ package.
+**The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ and _**bcryptjs**_ package.bhv
 
 <img src="./Assets/imgs/m2c.png" width = "500px">
 
@@ -138,7 +138,9 @@ _**Purporse:**_
 
 Any file inside the folder **_routes_** refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 
-_**api_routes**_ `App handler functions, which are executed when the route \api\* is matched`
+#### _**api_routes**_
+
+`App handler functions, which are executed when the route \api\* is matched`
 
 **The following API route** `/api/user_data` handles a **json** response:
 
@@ -161,3 +163,7 @@ _**api_routes**_ `App handler functions, which are executed when the route \api\
 <summary>api_routes code image with comments</summary>
 <img src="./Assets/imgs/api_routes.png" width = "800px">
 </details>
+
+#### _**html_routes**_
+
+`The following code demostrates how the controller handle the data and returning the resulting page to the user to view in the browser.`
