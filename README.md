@@ -169,8 +169,14 @@ Any file inside the folder **_routes_** refers to determining how an application
 
 - If the user go to this route (/login) the res (response) resulting page to the user to view in the browser will be **login.html**.
 
-`ilustration image.`
+`Ilustration image:`
 
 <img src="./Assets/imgs/html.png" width = "800px">
 
 ## Views
+
+`The controller responds to the user input and performs interactions on the data model objects. It includes anything that the user can see.`
+
+The **public folder** contains all the _**views**_ `(html, css, js) files` used by the project.
+
+<img src="./Assets/imgs/views_files.png" width = "200px">
