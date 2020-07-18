@@ -98,9 +98,9 @@ _**Purporse:**_
 - **password**: is a column
 - Also use the _define_ **method**. _Sequelize_ will then automatically add the attributes _createdAt_ and _updatedAt_ to it.
 
-**Resulting the following output on the db**
+_**Result: Diagram that represents the Model (User).**_
 
-<img src="./Assets/imgs/user4.png" width = "400px">
+<img src="./Assets/imgs/user.png" width = "700px">
 
 **The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ and _**bcryptjs**_ package.bhv
 
@@ -113,10 +113,6 @@ _**Purporse:**_
 <summary>user js image with comments</summary>
 <img src="./Assets/imgs/user_code.png" width = "800px">
 </details>
-
-_**Result: Diagram that represents the Model (User).**_
-
-<img src="./Assets/imgs/user.png" width = "500px">
 
 ---
 
