@@ -209,3 +209,14 @@ The following js files `login.js`, `members.js`, and `signup.js` have the functi
 - sending an **AJAX-GET** request with jquery `$.get("/api/user_data")`
 
 <img src="./Assets/imgs/members-js.png" width = "600px">
+
+**style.css** Cascading Style Sheet.
+
+**purporse:** It's used to define the styles of the webpages, in this specific project is just used to define the forms margins:
+
+```
+form.signup,
+form.login {
+margin-top: 50px;
+}
+```
