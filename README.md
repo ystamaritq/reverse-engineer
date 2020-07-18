@@ -176,4 +176,4 @@ Any file inside the folder **_routes_** refers to determining how an application
 
 `ilustration image above for more details.`
 
-<img src="./Assets/imgs/api2.png" width = "800px">
+<img src="./Assets/imgs/html.png" width = "800px">
