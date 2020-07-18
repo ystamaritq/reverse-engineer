@@ -181,6 +181,8 @@ The **public folder** contains all the _**views**_ `(html, css, js) files` used 
 
 <img src="./Assets/imgs/views_files.png" width = "200px">
 
-The following js files `login.js`, `members.js`, and `signup.js` have the functionality to handle the interactive elements for web page.
+The following js files `login.js`, `members.js`, and `signup.js` have the functionality to handle the interactive elements for web page. Allows the users to interact with the web pages.
 
 In this case for example:
+
+<img src="./Assets/imgs/login.png" width = "700px">
