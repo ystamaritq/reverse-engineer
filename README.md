@@ -174,6 +174,6 @@ Any file inside the folder **_routes_** refers to determining how an application
 
 - If the user go to this route (/login) the res (response) resulting page to the user to view in the browser will be **login.html**.
 
-`ilustration image above for more details.`
+`ilustration image.`
 
 <img src="./Assets/imgs/html.png" width = "800px">
