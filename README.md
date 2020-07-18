@@ -87,8 +87,20 @@ _**user.js**_ `Model deals with the business layer that is classes and the prope
 
 _**Purporse:**_
 
-- Creating our user model.
-- Define the user table using Sequelize.
+**The following code** is _creating_ our User model using Sequelize.
+
+<img src="./Assets/imgs/user2.png" width = "600px">
+
+**Where:**
+
+- **User**: is the table
+- **email**: is a column
+- **password**: is a column
+- Also use the _define_ **method**. _Sequelize_ will then automatically add the attributes _createdAt_ and _updatedAt_ to it.
+
+**Resulting the following output on the db**
+
+<img src="./Assets/imgs/user4.png" width = "400px">
 
 **The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ and _**bcryptjs**_ package.
 
