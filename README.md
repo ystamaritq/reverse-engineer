@@ -126,8 +126,7 @@ _**index.js**_ `Initialize sequalize db connection.`
 
 _**Purporse:**_
 
-    -  Uses optional Environment Variable (env) to specify if you are in dev or production.
-    -  And uses the configurations for that environment from a _config_ file.
+`Uses optional Environment Variable (env) to specify if you are in dev or production. And uses the configurations for that environment from a _config_ file.`
 
 <details>
 <summary>index js image with comments</summary>
@@ -177,3 +176,5 @@ Any file inside the folder **_routes_** refers to determining how an application
 `ilustration image.`
 
 <img src="./Assets/imgs/html.png" width = "800px">
+
+## Views
