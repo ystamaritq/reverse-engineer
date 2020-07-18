@@ -183,7 +183,7 @@ The **public folder** contains all the _**views**_ `(html, css, js) files` used 
 
 The following js files `login.js`, `members.js`, and `signup.js` have the functionality to handle the interactive elements for web page. Allows the users to _interact_ with the web pages.
 
-In this case for example:
+**JS Files**
 
 **login** js file handle user interaction when the user => login to the page.
 
@@ -197,7 +197,7 @@ In this case for example:
 
 **purporse**
 
-- sending an AJAX POST-request with jQuery `$.post("/api/signup", { email: email, password: password })`
+- sending an AJAX POST-request with jQuery `$.post("/api/signup", { email: email, password: password})`
 
 <img src="./Assets/imgs/signup-js.png" width = "700px">
 
@@ -208,4 +208,4 @@ In this case for example:
 - when the page loads, grab all of our users.
 - sending an **AJAX-GET** request with jquery `$.get("/api/user_data")`
 
-<img src="./Assets/imgs/members-js.png" width = "400px">
+<img src="./Assets/imgs/members-js.png" width = "600px">
