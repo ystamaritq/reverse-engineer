@@ -185,6 +185,6 @@ The following js files `login.js`, `members.js`, and `signup.js` have the functi
 
 In this case for example:
 
-**Login** js file handle user interaction when the user => login to the page.
+**login** js file handle user interaction when the user => login to the page.
 
 <img src="./Assets/imgs/login.png" width = "700px">
