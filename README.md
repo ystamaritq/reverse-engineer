@@ -90,6 +90,13 @@ _**Purporse:**_
 - Creating our user model.
 - Define the user table using Sequelize.
 
+**The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ using the _**bcryptjs**_ package.
+
+<img src="./Assets/imgs/m2c.png" width = "500px">
+
+**Resulting the following db output**
+<img src="./Assets/imgs/m2.png" width = "800px">
+
 <details>
 <summary>user js image with comments</summary>
 <img src="./Assets/imgs/user_code.png" width = "800px">
