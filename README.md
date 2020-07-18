@@ -90,7 +90,7 @@ _**Purporse:**_
 - Creating our user model.
 - Define the user table using Sequelize.
 
-**The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ using the _**bcryptjs**_ package.
+**The example below** is setting a value to the user model password before saving it, using the **beforeCreated** _Sequelize hook_ and _**bcryptjs**_ package.
 
 <img src="./Assets/imgs/m2c.png" width = "500px">
 
@@ -144,9 +144,6 @@ _**api_routes**_ `App handler functions, which are executed when the route \api\
 **The following examples** shows a **route** and its handler function _(Connect middleware)_. The function handles POST requests to the `/api/login` path & . If this function gets called, authentication was successful. `req.user` contains the authenticated user.
 
 <img src="./Assets/imgs/api2.png" width = "800px">
-
-If authentication fails, Passport will respond with a 401 Unauthorized status.
-If authentication succeeds, the next handler will be invoked and the req.user property will be set to the authenticated user.
 
 <details>
 <summary>api_routes code image with comments</summary>
