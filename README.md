@@ -231,3 +231,8 @@ margin-top: 50px;
 **The html files** will include all the UI components such as forms, text boxes, buttons, etc used by the html templates.
 
 <img src="./Assets/imgs/views.png" width = "800px">
+
+### Project improvement
+
+- Use handlebars as the project template engine.
+- Improve UI design.
