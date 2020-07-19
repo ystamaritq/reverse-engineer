@@ -213,3 +213,15 @@ form.login {
 margin-top: 50px;
 }
 ```
+
+**The html files** will include all the UI components such as forms, text boxes, buttons, etc used by the html templates.
+
+**signup.html image**
+
+<img src="./Assets/imgs/html-signup.png" width = "600px">
+
+**login.html image**
+<img src="./Assets/imgs/login-html.png" width = "600px">
+
+**members.html image**
+<img src="./Assets/imgs/members-html.png" width = "600px">
