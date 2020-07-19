@@ -72,10 +72,24 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 _**Server.js**_ `This file is the initial starting point for the Node/Express server.`
 
-<details>
-<summary>server js image with comments</summary>
+**purporse**
+
+- Setting an initial port and requiring models for syncing.
+  `var PORT = process.env.PORT || 8080;`
+- Creating our server.
+- `var app = express()`
+- Sets passport initialization middleware.
+  - `app.use(passport.initialize())`
+- Import routes and give the server access to them
+  - `require("./routes/html-routes.js")(app)`
+  - `require("./routes/api-routes.js")(app)`
+- Automatically synchronize all models using `db.sequelize.sync()`.
+
 <img src="./Assets/imgs/server.png" width = "800px">
-</details>
+
+**Console Results** after running the `node server.js`.
+
+<img src="./Assets/imgs/console.png" width = "800px">
 
 ---
 
