@@ -68,16 +68,17 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ## Files walk-through
 
-### config `contains the project configuration files`
+### config
 
 **purporse:**
 
+- contains the project configuration files.
 - setting middleware for restricting routes a user is not allowed to visit if not logged in.
 - passport configuration file.
 - config.json.
-  - here is an overview of the file where the dialect using by the project is (mysql) in order to run the app you must change this file password to your password.
+  - here is an overview of the file where the dialect using by the project is (_mysql_) in order to run the app you must change this file password to your password.
 
-<img src="./Assets/imgs/config.png" width = "500px">
+<img src="./Assets/imgs/config.png" width = "400px">
 
 ### server.js
 
