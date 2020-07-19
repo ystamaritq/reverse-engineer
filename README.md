@@ -68,6 +68,17 @@ _**sequelize**_ `Used since the beginning in order to automate the creation of e
 
 ## Files walk-through
 
+### config `contains the project configuration files`
+
+**purporse:**
+
+- setting middleware for restricting routes a user is not allowed to visit if not logged in.
+- passport configuration file.
+- config.json.
+  - here is an overview of the file where the dialect using by the project is (mysql) in order to run the app you must change this file password to your password.
+
+<img src="./Assets/imgs/config.png" width = "500px">
+
 ### server.js
 
 _**Server.js**_ `This file is the initial starting point for the Node/Express server.`
@@ -222,10 +233,12 @@ The following js files `login.js`, `members.js`, and `signup.js` have the functi
 **purporse:** It's used to define the styles of the webpages, in this specific project is just used to define the forms margins:
 
 ```
+
 form.signup,
 form.login {
 margin-top: 50px;
 }
+
 ```
 
 **The html files** will include all the UI components such as forms, text boxes, buttons, etc used by the html templates.
@@ -236,3 +249,7 @@ margin-top: 50px;
 
 - Use handlebars as the project template engine.
 - Improve UI design.
+
+```
+
+```
