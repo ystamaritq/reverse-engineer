@@ -16,6 +16,18 @@ I WANT a walk-through of the codebase
 SO THAT I can use it as a starting point for a new project
 ```
 
+## Installing / Getting Started
+
+To test this project, simply follow these steps:
+
+```
+step 1: clone https://github.com/ystamaritq/reverse-engineer.git
+step 2: install node https://nodejs.org/en/download/
+step 3: npm install
+step 4: change the config.json file password
+step 4: node server.js
+```
+
 ## Developing
 
 This project is based on **MVC** (_model-view-control_) **design** that separates bussiness logics, UI design and user interaction.
@@ -250,7 +262,3 @@ margin-top: 50px;
 
 - Use handlebars as the project template engine.
 - Improve UI design.
-
-```
-
-```
